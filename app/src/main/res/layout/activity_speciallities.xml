@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.Speciallities"
+    android:padding="6dp"
+    android:background="@drawable/bg"
+    android:orientation="vertical">
+
+    <ImageButton
+        android:id="@+id/btn_back"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/ic_back"
+        android:layout_marginTop="6dp"
+        android:layout_marginRight="6dp"
+        />
+
+    <ImageButton
+        android:id="@+id/btn_info"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/ic_info_24"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="6dp"
+        android:layout_marginRight="6dp"
+        android:backgroundTint="@color/purple_200"/>
+
+    <TextView
+        android:id="@+id/tv_judul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SPECIALLITIES"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:textSize="32dp"
+        android:layout_marginBottom="5dp"
+        android:layout_below="@+id/btn_info"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_specially"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:itemCount="10"
+        tools:listitem="@layout/list_specially"
+        android:layout_below="@+id/tv_judul"/>
+
+    <ProgressBar
+        android:id="@+id/pb_specially"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone"/>
+
+</RelativeLayout>

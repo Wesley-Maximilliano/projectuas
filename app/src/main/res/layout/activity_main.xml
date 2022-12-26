@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.MainActivity"
+    android:padding="6dp"
+    android:background="@drawable/bg">
+
+
+
+    <TextView
+        android:id="@+id/tvPilih"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MENU"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:textSize="30dp"
+        android:textStyle="bold"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_heroes"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:text="heroes"
+        android:layout_centerHorizontal="true"
+        app:cornerRadius="12dp"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/tvPilih"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_role"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:text="Roles"
+        android:layout_centerHorizontal="true"
+        app:cornerRadius="12dp"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/btn_heroes"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_specially"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:text="Speciallities"
+        android:layout_centerHorizontal="true"
+        app:cornerRadius="12dp"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/btn_role"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.ProfileActivity"
+    android:padding="12dp">
+
+    <TextView
+        android:id="@+id/tv_judul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ABOUT US"
+        android:layout_centerHorizontal="true"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:id="@+id/tv_judul1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Deskirpsi Aplikasi"
+        android:textStyle="bold"
+        android:layout_marginBottom="15dp"
+        android:layout_below="@id/tv_judul"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/tv_des"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aplikasi ini dibuat menggunakan API https://api.dazelpro.com/mobile-legends/ dan https://mapi.mobilelegends.com/hero/ . Aplikasi ini berisi List Hero beserta Info lengkap yang dapat berguna bagi para pengguna nya. Dengan aplikasi ini saya harap dapat mempurmudah anda untuk mengetahui info-info tentang Hero yang ada pada game Mobile Legends : Bang-Bang. "
+        android:textSize="15dp"
+        android:layout_marginBottom="20dp"
+        android:layout_below="@id/tv_judul1"
+        />
+
+    <TextView
+        android:id="@+id/tv_judula"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Team"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_below="@id/tv_des"
+        />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/iv_foto"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/ic_person_24"
+        android:layout_below="@id/tv_judula"/>
+
+    <TextView
+        android:id="@+id/tvnama1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Viky Hendriko \n2125250005"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="45dp"
+        android:layout_toRightOf="@+id/iv_foto"
+        android:layout_below="@+id/tv_des"
+        android:gravity="center"
+        />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/iv_foto2"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/ic_person_24"
+        android:layout_below="@+id/iv_foto"/>
+
+    <TextView
+        android:id="@+id/tvnama2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Wesley Maximilliano \n2125250052"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="45dp"
+        android:layout_toRightOf="@+id/iv_foto2"
+        android:layout_below="@+id/iv_foto"
+        />
+
+</RelativeLayout>
