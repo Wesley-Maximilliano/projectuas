@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:padding="6dp"
-        android:backgroundTint="#0002A1"
+        android:backgroundTint="#0008C1"
         android:background="@drawable/recylerview_bg">
 
         <TextView

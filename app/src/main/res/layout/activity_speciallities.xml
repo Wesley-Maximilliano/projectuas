@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".activity.Speciallities"
     android:padding="6dp"
-    android:background="@drawable/bg"
+    android:background="@drawable/bg1"
     android:orientation="vertical">
 
     <ImageButton

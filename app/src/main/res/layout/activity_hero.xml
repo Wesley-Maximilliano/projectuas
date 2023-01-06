@@ -7,7 +7,7 @@
     android:orientation="vertical"
     tools:context=".activity.MainActivity"
     android:padding="6dp"
-    android:background="@drawable/bg">
+    android:background="@drawable/bg1">
 
     <ImageButton
         android:id="@+id/btn_back"

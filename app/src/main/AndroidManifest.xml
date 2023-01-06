@@ -13,7 +13,6 @@
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@drawable/moonton"
         android:label="Mobile Legends"
-
         android:supportsRtl="true"
         android:theme="@style/Theme.MobileLegendsRework"
         tools:targetApi="31">
@@ -50,6 +49,8 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
+
         </activity>
     </application>
 
