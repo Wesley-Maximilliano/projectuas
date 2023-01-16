@@ -6,12 +6,12 @@
     android:layout_height="match_parent"
     tools:context=".activity.ProfileActivity"
     android:padding="12dp"
+    android:background="@drawable/bg1"
     >
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="fill_parent"
-        android:background="@drawable/bg1"
         >
 
     <TextView

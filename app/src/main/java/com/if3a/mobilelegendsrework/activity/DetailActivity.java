@@ -101,11 +101,11 @@ public class DetailActivity extends AppCompatActivity {
         detailHeroProcess.enqueue(new Callback<RootDetail>() {
             @Override
             public void onResponse(Call<RootDetail> call, Response<RootDetail> response) {
-                tvMag.setText("Mag \t\t\t: " + response.body().getData().getMag());
-                tvPhy.setText("Phy \t\t\t\t: " + response.body().getData().getPhy());
+                tvMag.setText("Mag \t\t\t\t: " + response.body().getData().getMag());
+                tvPhy.setText("Phy \t\t\t\t\t: " + response.body().getData().getPhy());
                 tvType.setText("Type \t\t\t: " + response.body().getData().getType());
                 tvAlive.setText("Alive \t\t\t: " + response.body().getData().getAlive());
-                tvDiff.setText("Diff \t\t\t\t: " + response.body().getData().getDiff());
+                tvDiff.setText("Diff \t\t\t\t\t: " + response.body().getData().getDiff());
 
                 tvBestPartner.setText(response.body().getData().getCounters().getBest().getName());
                 tvTipsBestPartner.setText( response.body().getData().getCounters().getBest().getBest_mate_tips());

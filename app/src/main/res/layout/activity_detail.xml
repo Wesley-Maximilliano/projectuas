@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".activity.DetailActivity"
-    android:padding="12dp">
+    android:padding="12dp"
+    android:background="@drawable/bg1">
 
 
     <LinearLayout
@@ -23,6 +24,7 @@
                 android:layout_height="50dp"
                 android:background="@drawable/ic_back"
                 android:layout_marginTop="6dp"
+                android:backgroundTint="@color/white"
                 android:layout_marginRight="6dp"
                 />
 
@@ -52,6 +54,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Nama Hero"
+            android:textColor="@color/white"
             android:textSize="40sp"
             android:layout_marginTop="20dp"
             android:layout_gravity="center"
@@ -63,6 +66,7 @@
             android:layout_height="wrap_content"
             android:text="Info"
             android:textSize="30sp"
+            android:textColor="@color/white"
             android:textStyle="bold"
             android:layout_marginLeft="5dp"
             />
@@ -70,6 +74,7 @@
 
         <TextView
             android:id="@+id/tv_type"
+            android:textColor="@color/white"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="20sp"
@@ -79,6 +84,7 @@
 
         <TextView
             android:id="@+id/tv_mag"
+            android:textColor="@color/white"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="20sp"
@@ -90,6 +96,7 @@
             android:id="@+id/tv_phy"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="@color/white"
             android:textSize="20sp"
             android:text="Phy"
             android:layout_marginLeft="5dp"
@@ -97,6 +104,7 @@
             />
 
         <TextView
+            android:textColor="@color/white"
             android:id="@+id/tv_alive"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -110,6 +118,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="20sp"
+            android:textColor="@color/white"
             android:text="Diff"
             android:layout_marginLeft="5dp"
             />
@@ -123,6 +132,7 @@
             android:textSize="30sp"
             android:textStyle="bold"
             android:text="Skill"
+            android:textColor="@color/white"
             android:layout_marginLeft="5dp"
             />
 
@@ -138,8 +148,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="30sp"
+            android:textColor="@color/white"
             android:textStyle="bold"
-            android:text="Recommended Build" />
+            android:text="Recommended Build"
+            android:layout_marginTop="6dp"
+            />
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/rv_build"
@@ -154,6 +167,7 @@
             android:layout_height="wrap_content"
             android:textStyle="bold"
             android:textSize="30sp"
+            android:textColor="@color/white"
             android:layout_marginLeft="5dp"
             android:text="Best Partner"/>
 
@@ -162,6 +176,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="20sp"
+            android:textColor="@color/white"
             android:layout_marginLeft="5dp"
             android:text="nama best partner" />
 
@@ -176,6 +191,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textStyle="bold"
+            android:textColor="@color/white"
             android:text="Tips best partner" />
 
 
@@ -183,6 +199,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textStyle="bold"
+            android:textColor="@color/white"
             android:textSize="30sp"
             android:layout_marginLeft="5dp"
             android:text="Hero Counters" />
@@ -192,6 +209,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="nama counter"
+            android:textColor="@color/white"
             android:layout_marginLeft="5dp"
             android:textSize="20sp"/>
 
@@ -207,6 +225,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="20sp"
+            android:textColor="@color/white"
             android:text="Tips Counter"/>
 
         <TextView
@@ -214,6 +233,7 @@
             android:layout_height="wrap_content"
             android:textSize="30sp"
             android:textStyle="bold"
+            android:textColor="@color/white"
             android:layout_marginLeft="5dp"
             android:text="Countered" />
 
@@ -222,6 +242,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="20sp"
+            android:textColor="@color/white"
             android:layout_marginLeft="5dp"
             android:text="nama countered"
             />
@@ -238,6 +259,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="20sp"
+            android:textColor="@color/white"
             android:text="Tips countered"/>
 
     </LinearLayout>

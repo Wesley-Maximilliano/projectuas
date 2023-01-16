@@ -19,6 +19,7 @@
             android:background="@drawable/ic_back"
             android:layout_marginTop="6dp"
             android:layout_marginRight="6dp"
+            android:backgroundTint="@color/white"
             />
 
         <ImageButton
